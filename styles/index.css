@@ -100,7 +100,9 @@ h1 {
 @media only screen and (max-width: 1000px) {
   h1 {
     text-align: center;
-      margin: 20px 20px;
+    margin: 20px 20px;
+    font-size: 25px;
+
   }
 }
 /* this was My Blog Enteries:
