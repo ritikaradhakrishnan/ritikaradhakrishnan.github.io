@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 22px;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    /* font-family: 'Roboto Mono', monospace; */
+    text-align: left;
+    width: 100%;
+    position: relative;
+  }
+  ul.topnav li {float: left;}
+  ul.topnav li a {
+    display: block;
+    color: rgb(89, 75, 94);
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    
+  }
+  ul.topnav li a:hover:not(.active) {
+      background-color: rgba(138, 57, 158, 0.2);
+      color: rgb(0, 0, 0);
+  }
+  ul.topnav li a.active {
+      background-color: rgba(138, 57, 158, 0.6);
+      color: aliceblue;
+  }
+  ul.topnav li.right {
+      float: right;
+  }
+/* because we are putting class="right" within the <li  > tag, we said  ul.topnav li.right and not  ul.topnav li.right.a */
+  @media screen and (max-width: 720px) {
+    ul.topnav li{
+        width: 100%;
+        text-align: center;
+    }
+    ul.topnav a{
+        width: 100%;
+        text-align: center;
+    }
+    }
+  

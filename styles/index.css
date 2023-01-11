@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body{
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+h1 {
+  /**
+
+  color: rgb(95, 81, 95);
+  */
+  text-shadow: 8px 7px 10px rgb(255, 251, 255);
+  text-align: center;
+  padding: 100px 20px 40px 40px;
+  margin: 10px 40px;
+  font-size: 35px;
+  font-family: 'Press Start 2P', cursive;
+  /* font-family: "Lucida Console", Courier, monospace; */
+  color: rgba(182, 102, 202, 0.7);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#222),
+    to(#222),
+    color-stop(0.5, #e3972c)
+  );
+  background: -moz-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#222),
+    to(#222),
+    color-stop(0.5, #F99205)
+  );
+  background: gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#222),
+    to(#222),
+    color-stop(0.5, #F99205)
+  );
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: socials;
+  -moz-animation-name: socials;
+  animation-name: socials;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+}
+@-moz-keyframes socials {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: bottom right;
+  }
+}
+@-webkit-keyframes socials {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: bottom right;
+  }
+}
+@-o-keyframes socials {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: bottom right;
+  }
+}
+@keyframes socials {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: bottom right;
+  }
+}
+
+/* this was My Blog Enteries:
+h2{
+  margin: 0;
+  text-align: center;
+  padding: 40px 20px 15px 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgba(122, 50, 139, 0.7);
+}*/
+
+/* content {
+  font-size: 20px;
+  margin: 30px;
+}
+content a{
+  color: rgb(15, 15, 15);
+  text-decoration: none;
+}  */
+
+
+.myDiv{
+  margin: 10px 50px;
+}
+
+.myDiv p {
+  float: inline-block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  /* font-family: "Lucida Console", Courier, monospace;  */
+  font-size: 25px;
+  color: #343432; 
+  font-weight: 500;
+  line-height: 1.2;
+  
+}
+
+.blogDiv {
+  font-size: 20px;
+  margin: 20px 10px;
+  font-size: 20px;
+}
+
+.blogDiv p a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.blogDiv p a:hover{
+  color: rgba(138, 57, 158, 0.7);
+  text-decoration: underline;
+  cursor: pointer;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#222),
+    to(#222),
+    color-stop(0.5, #F99205)
+  );
+  background: -moz-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#222),
+    to(#222),
+    color-stop(0.5, #F99205)
+  );
+  background: gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#222),
+    to(#222),
+    color-stop(0.5, #F99205)
+  );
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: socials;
+  -moz-animation-name: socials;
+  animation-name: socials;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+}
+@-moz-keyframes socials {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: bottom right;
+  }
+}
+@-webkit-keyframes socials {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: bottom right;
+  }
+}
+@-o-keyframes socials {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: bottom right;
+  }
+}
+@keyframes socials {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: bottom right;
+  }
+}
+
+.socialDiv{
+  font-size: 45px;
+  margin: 20px 50px;
+  padding: 10px 40px;
+  display: inline;
+}
+
+.socialDiv a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.socialDiv a:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+
+
+
