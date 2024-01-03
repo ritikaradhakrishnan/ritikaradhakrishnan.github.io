@@ -7,6 +7,7 @@ body{
   background-color: rgb(255, 255, 255);
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: url('../images/mymind-XUlsF9LYeVk-unsplash.jpeg');
 }
   
 h1 {
@@ -139,13 +140,14 @@ content a{
   padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
-  /* font-family: "Lucida Console", Courier, monospace;  */
+  font-family: "Lucida Console", Courier, monospace; 
   font-size: 25px;
-  color: #343432; 
+  color: #000000; 
+  text-shadow: 0 0 5px rgba(252, 252, 252, 0.7);
   font-weight: 500;
-  line-height: 1.2;
-  
-}
+  line-height: 1.0;
+  margin: 5px 100px;
+} 
 
 
 @media only screen and (max-width: 1000px) {
