@@ -13,7 +13,7 @@ html {
 .listing {
   list-style: none;
   margin: 30px 30px;
-  padding: 30px 30px;
+  padding: 20px 30px;
   text-align: center;
   justify-content: center;
   display: grid;

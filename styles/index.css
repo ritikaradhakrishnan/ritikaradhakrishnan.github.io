@@ -7,7 +7,7 @@ body{
   background-color: rgb(255, 255, 255);
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('../images/mymind-XUlsF9LYeVk-unsplash.jpeg');
+  background-image: url('../images/magicpattern-65O4Dw6-xLg-unsplash.jpeg');
 }
   
 h1 {
@@ -15,14 +15,15 @@ h1 {
 
   color: rgb(95, 81, 95);
   */
-  text-shadow: 8px 7px 10px rgb(255, 251, 255);
+  text-shadow: 8px 7px 10px rgb(215, 67, 208);
   text-align: center;
-  padding: 70px 10px 40px 10px;
+  padding: 50px 10px 40px 10px;
   margin: 10px 20px;
   font-size: 35px;
   font-family: 'Press Start 2P', cursive;
   /* font-family: "Lucida Console", Courier, monospace; */
-  color: rgba(182, 102, 202, 0.7);
+  /* color: rgba(182, 102, 202, 0.7); */
+  color: rgba(255, 255, 255, 0.7);
   background: -webkit-gradient(
     linear,
     left top,
@@ -101,7 +102,7 @@ h1 {
 @media only screen and (max-width: 1000px) {
   h1 {
     text-align: center;
-    margin: 20px 20px;
+    margin: 10px 10px;
     font-size: 25px;
 
   }
@@ -136,14 +137,14 @@ content a{
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
   font-family: "Lucida Console", Courier, monospace; 
   font-size: 25px;
-  color: #000000; 
-  text-shadow: 0 0 5px rgba(252, 252, 252, 0.7);
+  /* color: #000000;  */
+  color: whitesmoke; 
   font-weight: 500;
   line-height: 1.0;
   margin: 5px 100px;
@@ -165,8 +166,13 @@ content a{
 }
 
 .blogDiv p a {
-  color: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
+  color: rgb(255, 255, 255);
   text-decoration: none;
+  font-family: "Lucida Console", Courier, monospace; 
+  font-weight: 500;
+  line-height: 1.0;
+  
 }
 
 .blogDiv p a:hover{
@@ -179,7 +185,7 @@ content a{
     right bottom,
     from(#222),
     to(#222),
-    color-stop(0.5, #F99205)
+    color-stop(0.5, #c7a370)
   );
   background: -moz-gradient(
     linear,
@@ -187,7 +193,7 @@ content a{
     right bottom,
     from(#222),
     to(#222),
-    color-stop(0.5, #F99205)
+    color-stop(0.5, #a77632)
   );
   background: gradient(
     linear,
@@ -195,7 +201,8 @@ content a{
     right bottom,
     from(#222),
     to(#222),
-    color-stop(0.5, #F99205)
+    /* color-stop(0.5, #F99205) */
+    color-stop(0.5, #ff8b3d)
   );
   -webkit-background-size: 125px 100%;
   -moz-background-size: 125px 100%;
@@ -214,6 +221,7 @@ content a{
   animation-iteration-count: infinite;
   background-repeat: no-repeat;
   background-position: 0 0;
+  /* background-color: #222; */
   background-color: #222;
 }
 @-moz-keyframes socials {
@@ -258,12 +266,12 @@ content a{
 
 .socialDiv a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: whitesmoke;
 }
 
 .socialDiv a:hover{
   text-decoration: none;
-  color: grey;
+  color: purple;
 }
 
 @media only screen and (max-width: 1000px) {
